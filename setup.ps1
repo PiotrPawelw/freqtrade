@@ -1,6 +1,6 @@
 Clear-Host
 
-$Timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
+$Timestamp = Get-Date -Format "yyyyMMdd_HHmms"
 $Global:LogFilePath = Join-Path $env:TEMP "script_log_$Timestamp.txt"
 
 $RequirementFiles = @("requirements.txt", "requirements-dev.txt", "requirements-hyperopt.txt", "requirements-freqai.txt", "requirements-freqai-rl.txt", "requirements-plot.txt")
